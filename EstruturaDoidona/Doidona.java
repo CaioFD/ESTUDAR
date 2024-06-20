@@ -93,7 +93,7 @@ class Lista {
         }
 
         public int remover(int pos) throws Exception{
-                int resp;
+                int resp = 0;
                 int tamanho = tamanho();
 
                 if(primeiro == ultimo){
