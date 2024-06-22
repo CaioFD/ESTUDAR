@@ -1,6 +1,4 @@
 
-
-
 class No {
     public char elemento;
     public final int tamanho = 255;
