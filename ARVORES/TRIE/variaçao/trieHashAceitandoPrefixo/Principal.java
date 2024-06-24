@@ -1,10 +1,8 @@
-package ARVORES.TRIE;
-
-public class Principal {
+class Principal {
     public static void main (String[] args) throws Exception {
        ArvoreTrie arv = new ArvoreTrie();
  
-       String array[] = new String[8];
+       String array[] = new String[11];
        array[0] = "ABACAXI";
        array[1] = "BALA";
        array[2] = "BOLO";
@@ -13,12 +11,14 @@ public class Principal {
        array[5] = "pata";
        array[6] = "pato";
        array[7] = "gato";
+       array[8] = "BAL";
+       array[9] = "BA";
+       array[10] = "BALAS";
  
        for(int i = 0; i < array.length; i++){
           arv.inserir(array[i]);
        }
        arv.mostrar();
-       /*
        for(int i = 0; i < array.length; i++){
           System.out.println("Pesquisar(" + array[i] + "):" + arv.pesquisar(array[i]));
        }
@@ -31,9 +31,6 @@ public class Principal {
  
        s = "gaga";
        System.out.println("Pesquisar(" + s + "):" + arv.pesquisar(s));
-    */
        
     }
- }{
-
-}
+ }
